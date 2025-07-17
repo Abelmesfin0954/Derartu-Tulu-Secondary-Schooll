@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to Our School Website</h1>
+    <div id="subscribeForm">
+        <h2>Subscribe</h2>
+        <input type="email" id="emailInput" placeholder="Enter your email">
+        <button onclick="subscribe()">Subscribe</button>
+    </div>
+
+    <div id="subscriptionRecords">
+        <h2>Subscription Records</h2>
+        <table id="subscriptionTable">
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Date Subscribed</th>
+                </tr>
+            </thead>
+            <tbody id="subscriptionBody">
+                <!-- Subscription records will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
